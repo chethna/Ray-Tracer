@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		11B272391BC8A8CB00309130 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11B272381BC8A8CB00309130 /* main.cpp */; };
+		11B272401BC8A8E900309130 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B2723F1BC8A8E900309130 /* GLUT.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		11B272451BC8AA3B00309130 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B272441BC8AA3B00309130 /* OpenGL.framework */; };
+		11B2724A1BC8EBAC00309130 /* test4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11B272491BC8EBAC00309130 /* test4.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		11B272351BC8A8CB00309130 /* Ray Tracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ray Tracer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B272381BC8A8CB00309130 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		11B2723F1BC8A8E900309130 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		11B272441BC8AA3B00309130 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		11B272481BC8EBAC00309130 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Headers; sourceTree = SOURCE_ROOT; };
+		11B272491BC8EBAC00309130 /* test4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test4.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B272451BC8AA3B00309130 /* OpenGL.framework in Frameworks */,
+				11B272401BC8A8E900309130 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +50,8 @@
 		11B2722C1BC8A8CB00309130 = {
 			isa = PBXGroup;
 			children = (
+				11B272441BC8AA3B00309130 /* OpenGL.framework */,
+				11B2723F1BC8A8E900309130 /* GLUT.framework */,
 				11B272371BC8A8CB00309130 /* Ray Tracer */,
 				11B272361BC8A8CB00309130 /* Products */,
 			);
@@ -57,6 +68,8 @@
 		11B272371BC8A8CB00309130 /* Ray Tracer */ = {
 			isa = PBXGroup;
 			children = (
+				11B272481BC8EBAC00309130 /* Headers */,
+				11B272491BC8EBAC00309130 /* test4.cpp */,
 				11B272381BC8A8CB00309130 /* main.cpp */,
 			);
 			path = "Ray Tracer";
@@ -118,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B2724A1BC8EBAC00309130 /* test4.cpp in Sources */,
 				11B272391BC8A8CB00309130 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
